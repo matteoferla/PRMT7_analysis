@@ -1,2 +1,4 @@
-# PMRT7_analysis
-Analysis of variants of PMRT7
+# PRMT7_analysis
+Analysis of variants of PRMT7 (Manuscript in preparation)
+
+
