@@ -99,7 +99,7 @@ relax = pyrosetta.rosetta.protocols.relax.FastRelax(cscorefxn, 5)
 relax.cartesian(True)
 relax.minimize_bond_lengths(True)
 relax.minimize_bond_angles(True)
-print(relax.scorefxn().get_name())
+print(relax.get_scorefxn().get_name())
 relax.apply(pose)
 pose.dump_pdb('model_cart_nov16.pdb')
 ```
